@@ -28,8 +28,25 @@ h1, h2, h3 {
   border:none;
 }
 
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #060406;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #867354;
+}
+
 .home-callout {
   color: #fff;
+  //This is a reverse gradient as used above.
   background: #1e130c; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #9a8478 , #1e130c); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #9a8478 , #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
