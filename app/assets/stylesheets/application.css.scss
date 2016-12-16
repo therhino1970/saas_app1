@@ -19,10 +19,12 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+//---------------------------Tag Styles---------------------------------------------------------------------------------------------------
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+//--------------------------- NavBar Styles-----------------------------------------------------------------------------------------------
 .navbar {
   background: #1e130c; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #1e130c , #9a8478); /* Chrome 10-25, Safari 5.1-6 */
@@ -45,6 +47,20 @@ h1, h2, h3 {
   color: #867354;
 }
 
+//---------------------------Hamburger Styles---------------------------------------------------------------------------------------------
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid #fff;
+  &:hover, &:focus {
+    background-color: #9a8478;
+  }
+}
+
+//---------------------------Home Page Styles---------------------------------------------------------------------------------------------
 .home-callout {
   color: #fff;
   //This is a reverse gradient as used above.
